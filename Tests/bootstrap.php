@@ -8,8 +8,14 @@
  * file that was distributed with this source code.
  */
 
-if (file_exists($file = __DIR__.'/autoload.php')) {
-    require_once $file;
-} elseif (file_exists($file = __DIR__.'/autoload.php.dist')) {
-    require_once $file;
+if (!($loader = @include __DIR__.'/../vendor/autoload.php')) {
+    echo <<<'EOT'
+You need to install the project dependencies using Composer:
+$ wget http://getcomposer.org/composer.phar
+OR
+$ curl -s https://getcomposer.org/installer | php
+$ php composer.phar install --dev
+$ phpunit
+EOT;
+    exit(1);
 }

@@ -14,6 +14,7 @@ use Ekino\WordpressBundle\Security\WordpressEntryPoint;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\Security\Core\Exception\AccessDeniedException;
 use Symfony\Component\Security\Core\Exception\AuthenticationException;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class WordpressEntryPointTest.
@@ -22,7 +23,7 @@ use Symfony\Component\Security\Core\Exception\AuthenticationException;
  *
  * @author Jérôme Tamarelle <jerome@tamarelle.net>
  */
-class WordPressEntryPointTest extends \PHPUnit_Framework_TestCase
+class WordPressEntryPointTest extends TestCase
 {
     public function testEntryPoint()
     {

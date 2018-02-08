@@ -11,6 +11,7 @@
 namespace Ekino\WordpressBundle\Tests\Wordpress;
 
 use Ekino\WordpressBundle\Wordpress\Wordpress;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class WordpressTest.
@@ -19,7 +20,7 @@ use Ekino\WordpressBundle\Wordpress\Wordpress;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class WordpressTest extends \PHPUnit_Framework_TestCase
+class WordpressTest extends TestCase
 {
     /**
      * @var \Ekino\WordpressBundle\Wordpress\Wordpress

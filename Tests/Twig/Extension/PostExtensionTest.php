@@ -11,8 +11,8 @@
 namespace Ekino\WordpressBundle\Tests\Twig\Extension;
 
 use Ekino\WordpressBundle\Twig\Extension\PostExtension;
-
-class PostExtensionTest extends \PHPUnit_Framework_TestCase
+use PHPUnit\Framework\TestCase;
+class PostExtensionTest extends TestCase
 {
     protected $postManager;
     protected $optionExtension;

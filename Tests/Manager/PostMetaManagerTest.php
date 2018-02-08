@@ -14,13 +14,14 @@ use Doctrine\ORM\AbstractQuery;
 use Doctrine\ORM\EntityManager;
 use Ekino\WordpressBundle\Manager\PostMetaManager;
 use Ekino\WordpressBundle\Repository\PostMetaRepository;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class PostMetaManagerTest.
  *
  * @author Xavier Coureau <xav.is@2cool4school.fr>
  */
-class PostMetaManagerTest extends \PHPUnit_Framework_TestCase
+class PostMetaManagerTest extends TestCase
 {
     /**
      * @var EntityManager

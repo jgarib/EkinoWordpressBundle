@@ -12,7 +12,7 @@ namespace Ekino\WordpressBundle\Tests\Entity;
 
 use Ekino\WordpressBundle\Entity\Term;
 use Ekino\WordpressBundle\Entity\TermTaxonomy;
-
+use PHPUnit\Framework\TestCase;
 /**
  * Class TermTaxonomyTest.
  *
@@ -20,7 +20,7 @@ use Ekino\WordpressBundle\Entity\TermTaxonomy;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class TermTaxonomyTest extends \PHPUnit_Framework_TestCase
+class TermTaxonomyTest extends TestCase
 {
     /**
      * Test entity getters & setters.

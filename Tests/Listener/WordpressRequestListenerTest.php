@@ -20,6 +20,7 @@ use Symfony\Component\HttpKernel\Event\GetResponseEvent;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
 use Symfony\Component\Security\Core\Authentication\Token\Storage\TokenStorage;
 use Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class WordpressRequestListenerTest.
@@ -28,7 +29,7 @@ use Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class WordpressRequestListenerTest extends \PHPUnit_Framework_TestCase
+class WordpressRequestListenerTest extends TestCase
 {
     /**
      * @var \Ekino\WordpressBundle\Listener\WordpressRequestListener

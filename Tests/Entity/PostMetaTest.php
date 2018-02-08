@@ -12,6 +12,7 @@ namespace Ekino\WordpressBundle\Tests\Entity;
 
 use Ekino\WordpressBundle\Entity\Post;
 use Ekino\WordpressBundle\Entity\PostMeta;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class PostMetaTest.
@@ -20,7 +21,7 @@ use Ekino\WordpressBundle\Entity\PostMeta;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class PostMetaTest extends \PHPUnit_Framework_TestCase
+class PostMetaTest extends TestCase
 {
     /**
      * Test entity getters & setters.

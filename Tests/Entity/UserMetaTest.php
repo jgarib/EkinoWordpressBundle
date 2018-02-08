@@ -12,7 +12,7 @@ namespace Ekino\WordpressBundle\Tests\Entity;
 
 use Ekino\WordpressBundle\Entity\User;
 use Ekino\WordpressBundle\Entity\UserMeta;
-
+use PHPUnit\Framework\TestCase;
 /**
  * Class UserMetaTest.
  *
@@ -20,7 +20,7 @@ use Ekino\WordpressBundle\Entity\UserMeta;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class UserMetaTest extends \PHPUnit_Framework_TestCase
+class UserMetaTest extends TestCase
 {
     /**
      * Test entity getters & setters.

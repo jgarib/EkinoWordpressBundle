@@ -11,13 +11,14 @@
 namespace Ekino\WordpressBundle\Tests\Event\Hook;
 
 use Ekino\WordpressBundle\Event\Hook\UserHookListener;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class UserHookListenerTest.
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class UserHookListenerTest extends \PHPUnit_Framework_TestCase
+class UserHookListenerTest extends TestCase
 {
     /**
      * @var \Ekino\WordpressBundle\Manager\UserManager

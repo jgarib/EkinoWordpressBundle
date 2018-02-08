@@ -18,13 +18,13 @@ namespace {
 namespace Ekino\WordpressBundle\Tests\Twig\Extension {
 
     use Ekino\WordpressBundle\Twig\Extension\PostMetaExtension;
-
+    use PHPUnit\Framework\TestCase;
     /**
      * Class PostMetaExtensionTest.
      *
      * @author Xavier Coureau <xav.is@2cool4school.fr>
      */
-    class PostMetaExtensionTest extends \PHPUnit_Framework_TestCase
+    class PostMetaExtensionTest extends TestCase
     {
         /**
          * @var \PHPUnit_Framework_MockObject_MockObject

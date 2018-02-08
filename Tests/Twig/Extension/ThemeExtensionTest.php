@@ -64,13 +64,14 @@ namespace {
 namespace Ekino\WordpressBundle\Tests\Twig\Extension {
 
     use Ekino\WordpressBundle\Twig\Extension\ThemeExtension;
-
+    use PHPUnit\Framework\TestCase;
+    
     /**
      * Class ThemeExtensionTest.
      *
      * @author Vincent Composieux <vincent.composieux@gmail.com>
      */
-    class ThemeExtensionTest extends \PHPUnit_Framework_TestCase
+    class ThemeExtensionTest extends TestCase
     {
         /**
          * @var ThemeExtension

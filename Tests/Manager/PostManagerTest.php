@@ -15,13 +15,14 @@ use Doctrine\ORM\EntityManager;
 use Ekino\WordpressBundle\Manager\PostManager;
 use Ekino\WordpressBundle\Manager\PostMetaManager;
 use Ekino\WordpressBundle\Repository\PostRepository;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class PostManagerTest
  *
  * @author Guillaume Leclercq <g.leclercq12@gmail.com>
  */
-class PostManagerTest extends \PHPUnit_Framework_TestCase
+class PostManagerTest extends TestCase
 {
     /**
      * @var EntityManager

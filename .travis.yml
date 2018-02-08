@@ -34,7 +34,6 @@ matrix:
 before_install:
   - if [ "$SYMFONY_VERSION" != "" ]; then composer require --no-update "symfony/framework-bundle:${SYMFONY_VERSION}"; fi;
   - if [ "$DEPENDENCIES" = "dev" ]; then perl -pi -e 's/^}$/,"minimum-stability":"dev"}/' composer.json; fi;
-  - composer install --dev
 
 install:
   - composer update --prefer-dist --no-interaction $COMPOSER_FLAGS

@@ -13,7 +13,7 @@ namespace Ekino\WordpressBundle\Tests\Entity;
 use Ekino\WordpressBundle\Entity\Comment;
 use Ekino\WordpressBundle\Entity\Post;
 use Ekino\WordpressBundle\Entity\User;
-
+use PHPUnit\Framework\TestCase;
 /**
  * Class CommentTest.
  *
@@ -21,7 +21,7 @@ use Ekino\WordpressBundle\Entity\User;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class CommentTest extends \PHPUnit_Framework_TestCase
+class CommentTest extends TestCase
 {
     /**
      * Test entity getters & setters.

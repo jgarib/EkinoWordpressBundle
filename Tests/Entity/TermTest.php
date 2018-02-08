@@ -11,7 +11,7 @@
 namespace Ekino\WordpressBundle\Tests\Entity;
 
 use Ekino\WordpressBundle\Entity\Term;
-
+use PHPUnit\Framework\TestCase;
 /**
  * Class TermTest.
  *
@@ -19,7 +19,7 @@ use Ekino\WordpressBundle\Entity\Term;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class TermTest extends \PHPUnit_Framework_TestCase
+class TermTest extends TestCase
 {
     /**
      * Test entity getters & setters.

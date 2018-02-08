@@ -11,6 +11,7 @@
 namespace Ekino\WordpressBundle\Tests\Event;
 
 use Ekino\WordpressBundle\Event\WordpressEvent;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class WordpressEventTest.
@@ -19,7 +20,7 @@ use Ekino\WordpressBundle\Event\WordpressEvent;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class WordpressEventTest extends \PHPUnit_Framework_TestCase
+class WordpressEventTest extends TestCase
 {
     /**
      * Tests WordpressEvent constructor parameters.

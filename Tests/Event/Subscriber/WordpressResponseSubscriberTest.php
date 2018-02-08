@@ -13,8 +13,9 @@ namespace Ekino\WordpressBundle\Tests\Event\Subscriber;
 use Ekino\WordpressBundle\Event\Subscriber\WordpressResponseSubscriber;
 use Symfony\Component\HttpKernel\HttpKernelInterface;
 use Symfony\Component\HttpKernel\KernelEvents;
+use PHPUnit\Framework\TestCase;
 
-class WordpressResponseSubscriberTest extends \PHPUnit_Framework_TestCase
+class WordpressResponseSubscriberTest extends TestCase
 {
     protected $event;
     protected $response;

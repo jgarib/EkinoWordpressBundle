@@ -11,13 +11,14 @@
 namespace Ekino\WordpressBundle\Tests\Twig\Extension;
 
 use Ekino\WordpressBundle\Twig\Extension\OptionExtension;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class OptionExtensionTest.
  *
  * @author Xavier Coureau <xav.is@2cool4school.fr>
  */
-class OptionExtensionTest extends \PHPUnit_Framework_TestCase
+class OptionExtensionTest extends TestCase
 {
     /**
      * @var \PHPUnit_Framework_MockObject_MockObject

@@ -11,6 +11,7 @@
 namespace Ekino\WordpressBundle\Tests\Entity;
 
 use Ekino\WordpressBundle\Entity\Link;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class LinkTest.
@@ -19,7 +20,7 @@ use Ekino\WordpressBundle\Entity\Link;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class LinkTest extends \PHPUnit_Framework_TestCase
+class LinkTest extends TestCase
 {
     /**
      * Test entity getters & setters.

@@ -11,11 +11,12 @@
 namespace Ekino\WordpressBundle\Tests\Event\Subscriber\I18n;
 
 use Ekino\WordpressBundle\Event\Subscriber\I18n\I18nSubscriber;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class RequestSubscriberTest.
  */
-class I18nSubscriberTest extends \PHPUnit_Framework_TestCase
+class I18nSubscriberTest extends TestCase
 {
     protected $defaultLanguage;
     protected $cookieName;

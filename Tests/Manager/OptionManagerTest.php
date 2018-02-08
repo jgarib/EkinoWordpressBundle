@@ -13,13 +13,14 @@ namespace Ekino\WordpressBundle\Tests\Manager;
 use Doctrine\ORM\EntityManager;
 use Ekino\WordpressBundle\Manager\OptionManager;
 use Ekino\WordpressBundle\Repository\OptionRepository;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class OptionManagerTest.
  *
  * @author Xavier Coureau <xav.is@2cool4school.fr>
  */
-class OptionManagerTest extends \PHPUnit_Framework_TestCase
+class OptionManagerTest extends TestCase
 {
     /**
      * @var EntityManager

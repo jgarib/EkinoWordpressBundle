@@ -11,6 +11,7 @@
 namespace Ekino\WordpressBundle\Tests\Entity;
 
 use Ekino\WordpressBundle\Entity\Option;
+use PHPUnit\Framework\TestCase;
 
 /**
  * Class OptionTest.
@@ -19,7 +20,7 @@ use Ekino\WordpressBundle\Entity\Option;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class OptionTest extends \PHPUnit_Framework_TestCase
+class OptionTest extends TestCase
 {
     /**
      * Test entity getters & setters.

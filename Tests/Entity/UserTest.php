@@ -13,7 +13,7 @@ namespace Ekino\WordpressBundle\Tests\Entity;
 use Doctrine\Common\Collections\ArrayCollection;
 use Ekino\WordpressBundle\Entity\User;
 use Ekino\WordpressBundle\Entity\UserMeta;
-
+use PHPUnit\Framework\TestCase;
 /**
  * Class UserTest.
  *
@@ -21,7 +21,7 @@ use Ekino\WordpressBundle\Entity\UserMeta;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class UserTest extends \PHPUnit_Framework_TestCase
+class UserTest extends TestCase
 {
     /**
      * Test entity getters & setters.

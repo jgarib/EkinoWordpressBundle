@@ -14,7 +14,7 @@ use Doctrine\Common\Collections\ArrayCollection;
 use Ekino\WordpressBundle\Entity\Post;
 use Ekino\WordpressBundle\Entity\PostMeta;
 use Ekino\WordpressBundle\Entity\User;
-
+use PHPUnit\Framework\TestCase;
 /**
  * Class PostTest.
  *
@@ -22,7 +22,7 @@ use Ekino\WordpressBundle\Entity\User;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class PostTest extends \PHPUnit_Framework_TestCase
+class PostTest extends TestCase
 {
     /**
      * Test entity getters & setters.

@@ -12,7 +12,7 @@ namespace Ekino\WordpressBundle\Tests\Entity;
 
 use Ekino\WordpressBundle\Entity\Comment;
 use Ekino\WordpressBundle\Entity\CommentMeta;
-
+use PHPUnit\Framework\TestCase;
 /**
  * Class CommentMetaTest.
  *
@@ -20,7 +20,7 @@ use Ekino\WordpressBundle\Entity\CommentMeta;
  *
  * @author Vincent Composieux <composieux@ekino.com>
  */
-class CommentMetaTest extends \PHPUnit_Framework_TestCase
+class CommentMetaTest extends TestCase
 {
     /**
      * Test entity getters & setters.
