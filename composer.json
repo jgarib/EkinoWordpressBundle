@@ -18,7 +18,8 @@
         "symfony/monolog-bundle": "^2.2|^3.0|^4.0",
         "doctrine/doctrine-bundle": "^1.0",
         "doctrine/orm": "^2.2",
-        "hautelook/phpass": "0.3"
+        "hautelook/phpass": "0.3",
+        "phpunit/phpunit": "^7.0"
     },
     "suggest": {
         "twig/twig": ""
