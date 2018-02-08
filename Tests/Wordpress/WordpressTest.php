@@ -105,7 +105,7 @@ class WordpressTest extends TestCase
      */
     protected function getWordpressMock()
     {
-        return $this->createMock('\Ekino\WordpressBundle\Wordpress\Wordpress')
+        return $this->getMockBuilder('\Ekino\WordpressBundle\Wordpress\Wordpress')
             ->setMethods(['getContent'])
             ->setConstructorArgs([__DIR__, ['wp_test_global1', 'wp_test_global2']])
             ->getMock();
