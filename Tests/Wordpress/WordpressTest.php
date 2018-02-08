@@ -80,7 +80,7 @@ class WordpressTest extends TestCase
      */
     public function testExceptionWhenDirectoryNotFound()
     {
-        $this->setExpectedException('InvalidArgumentException');
+        $this->expectException('InvalidArgumentException');
 
         $wordpress = new Wordpress('/a/path/that/does/not/exists', ['wp_test_global1', 'wp_test_global2']);
         $wordpress->initialize();
@@ -105,7 +105,7 @@ class WordpressTest extends TestCase
      */
     protected function getWordpressMock()
     {
-        return $this->getMockBuilder('\Ekino\WordpressBundle\Wordpress\Wordpress')
+        return $this->createMock('\Ekino\WordpressBundle\Wordpress\Wordpress')
             ->setMethods(['getContent'])
             ->setConstructorArgs([__DIR__, ['wp_test_global1', 'wp_test_global2']])
             ->getMock();
